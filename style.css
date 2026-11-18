@@ -1,0 +1,167 @@
+html, body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #21166e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    padding-left: 20px;
+}
+
+menu {
+    display: flex;
+    list-style: none;
+    margin-right: 60px;
+    gap: 60px;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+img {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.branco {
+    color: white;
+    text-decoration: none;
+}
+
+.branco:hover {
+    color: gray;
+}
+
+.branco:focus {
+  border: 2px, solid, white;
+}
+
+.botao1{
+    background-color: #21166e;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.botao1:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.botao1:focus {
+    border: 2px, solid, white;
+}
+
+.botao2{
+    background-color: #21166e;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.botao2:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.botao2:focus {
+    border: 2px, solid, white;
+}
+
+.card {
+    background-color: lightblue;
+    text-align: center;
+    margin-top: 0px;
+    padding: 10px;
+    padding-bottom: 30px;
+    border-radius: 5%;
+}
+
+.card:first-child {
+    background-color: #ABD6E4;
+    border: 2px, solid, cyan;
+}
+
+#cardp {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#inicio {
+    background-color: lightblue;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 0px;
+}
+
+#cursos {
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.horario {
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.linha {
+    display: flex;
+    vertical-align: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.informations-img {
+    width: 15px;
+    height: 15px;
+}
+
+#contato {
+    background-color: lightblue;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin: 0px;
+}
+
+#rodape {
+    background-color: #21166e;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.texto-rodape {
+    text-align: center;
+    margin-bottom: 5px;
+    color: white;
+}
